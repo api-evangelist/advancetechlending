@@ -1,0 +1,10 @@
+generated: '2026-09-09'
+method: searched
+source: https://advance.ph/faqs
+plan_count: 0
+note: Advance Tech Lending publishes no API plans, developer tiers or API pricing of any kind, because it publishes
+  no API. The only pricing it discloses publicly is consumer/business lending pricing on its FAQ page - interest
+  "starts at 3.5%" payable 30 days from disbursement, a Salary Advance capped at up to 50% of the employee's monthly
+  basic salary, and a statement that all fees are shown upfront before a loan request is confirmed. That is loan
+  pricing, not API plan pricing, and is recorded here only to explain the zero.
+plans: []

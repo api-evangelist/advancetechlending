@@ -1,0 +1,24 @@
+generated: '2026-09-09'
+method: searched
+source: https://advance.ph/about (site footer) and https://advance.ph/faqs
+note: Advance Tech Lending publishes no machine-readable API contract (see x-coverage in apis.yml), so no API-level
+  standard conformance - OAuth 2.0, OpenID Connect, RFC 9457 problem details, JSON:API, pagination or idempotency
+  - can be asserted or refuted from a spec. The entries below are the regulatory authorizations the company publishes
+  about itself in its own site footer. No domain standard (ISO 20022, FDX, OpenBanking/PSD2, BSP Open Finance) is
+  declared by Advance on any public surface; the reward-only domain_standard_conformance slot is therefore left
+  empty rather than filled.
+conformance:
+- id: ph-sec-company-registration
+  name: Philippine SEC company registration
+  conforms: true
+  identifier: CS201819635
+  evidence: https://advance.ph/about
+  evidence_note: 'Site footer: "SEC Company Reg. No. CS201819635"'
+- id: ph-sec-lending-company-certificate-of-authority
+  name: SEC Certificate of Authority to Operate as a Lending Company (RA 9474)
+  conforms: true
+  identifier: '2765'
+  evidence: https://advance.ph/about
+  evidence_note: 'Site footer: "Certificate of Authority No. 2765"'
+api_standards_assessed: []
+domain_standard: null

@@ -1,0 +1,82 @@
+generated: '2026-09-09'
+method: probed
+source: live HTTPS probes of the named /.well-known/ path list on every host in apis.yml plus the certificate-transparency-discovered
+  partner hosts
+note: Every named /.well-known/ path returned 404 on every host Advance Tech Lending operates. advance.ph and www.advance.ph
+  are a Webflow-served marketing site; partner.advance.ph and partnerfly.advance.ph are a Next.js partner application
+  that redirects / to /login?next=/ and answers 404 for all discovery paths. No WellKnown or SecurityTxt pointer
+  is emitted in apis.yml because no path returned a document - this file records a verified absence, not a served
+  surface.
+hosts:
+- host: advance.ph
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: www.advance.ph
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: partner.advance.ph
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: partnerfly.advance.ph
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+summary:
+  hosts_probed: 4
+  paths_probed_per_host: 5
+  documents_found: 0

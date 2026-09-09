@@ -1,0 +1,10 @@
+generated: '2026-09-09'
+method: searched
+source: https://advance.ph/ (full 15-URL sitemap reviewed) and https://partner.advance.ph/
+limit_count: 0
+note: No rate limits are documented because no public API, developer portal or API reference exists on any Advance
+  Tech Lending host. Nothing was observed on a live unauthenticated API response either - api.advance.ph does not
+  resolve. An honest zero, not an unchecked field.
+rate_limits: []
+headers: []
+exhaustion_status: null

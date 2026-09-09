@@ -1,16 +1,36 @@
 aid: advancetechlending
-name: Advancetechlending
-description: 'Advancetechlending is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+name: Advance Tech Lending
+description: 'Advance Tech Lending Inc. (operating as Advance, advance.ph) is a Philippine fintech lender founded
+  in 2018 by Jaime de los Angeles and Addi Guevara and headquartered in Taguig, Metro Manila. It operates an on-demand
+  salary access and working-capital platform for Southeast Asia: employees of enrolled employers can draw a Salary
+  Advance of up to 50% of their monthly basic salary, and businesses can unlock cash through Direct Disbursement
+  (invoice/receivables financing) and Payroll Disbursement (payroll funding during cash-flow gaps). The company
+  is registered with the Philippine SEC (Company Reg. No. CS201819635) and holds Certificate of Authority No. 2765
+  as a lending company, and has raised roughly USD 16-17M in pre-Series A funding from investors including Accion
+  Venture Lab, Lendable, Next Billion Ventures and Do Ventures. As of this profile Advance publishes no first-party
+  developer program, API reference or machine-readable API contract: advance.ph is a 15-page marketing site with
+  no developer path, partner.advance.ph redirects every path to a login, and the only externally visible API listing
+  for its salary-loan product sits inside UnionBank''s api.ph partner marketplace.'
 url: https://raw.githubusercontent.com/api-evangelist/advancetechlending/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: 'enrichment pass 2026-09-09: full STEP 0b contract discovery run across advance.ph, www, partner.advance.ph
+  and CT-log subdomains; no public API surface found'
 specificationVersion: '0.20'
 created: '2026-09-09'
 modified: '2026-09-09'
 tags:
+- Financial Services
+- Fintech
+- Lending
+- Salary Advance
+- Earned Wage Access
+- Invoice Financing
+- Payroll
+- Employee Benefits
+- Philippines
+- Southeast Asia
 - Company
 apis: []
 maintainers:
@@ -19,5 +39,65 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: RateLimits
+  url: rate-limits/advancetechlending-rate-limits.yml
+- type: Plans
+  url: plans/advancetechlending-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/advancetechlending-llms.txt
+- type: Conformance
+  url: conformance/advancetechlending-conformance.yml
+- type: DomainSecurity
+  url: security/advancetechlending-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/advancetechlending
+  url: https://advance.ph/
+- type: About
+  url: https://advance.ph/about
+- type: Support
+  url: https://advance.ph/contact
+- type: HelpCenter
+  url: https://advance.ph/faqs
+- type: Blog
+  url: https://advance.ph/blog
+- type: SignUp
+  url: https://advance.ph/sign-up
+- type: Login
+  url: https://advance.ph/login
+- type: TermsOfService
+  url: https://advance.ph/terms
+- type: PrivacyPolicy
+  url: https://advance.ph/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/advancetechlending
+- type: Facebook
+  url: https://www.facebook.com/advancetechlending
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/advance-tech-lending
+image: https://cdn.prod.website-files.com/65f7b73881129a65c906fbaa/6603cdd2a7f553cc07e761db_Logo%20Blue.png
+x-enrichment:
+  date: '2026-09-09'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v3
+x-coverage:
+  state: gated
+  reason: marketplace-only
+  detail: Advance Tech Lending publishes nothing developer-facing on its own hosts - advance.ph is a 15-page Webflow
+    marketing site whose complete sitemap contains no /developers, /docs or /api path, api.advance.ph does not resolve
+    in DNS, and partner.advance.ph redirects every path to /login?next=/ - so the only externally visible API for
+    an Advance product is the third-party "Salary Loan by Advance Tech" partner listing inside UnionBank's api.ph
+    marketplace, which itself answered 503 from its Akamai edge on every request during this pass.
+  evidence:
+  - url: https://api.ph/marketplace/partner-advance-lending/83/business/overview
+    status: 503
+  - url: https://advance.ph/sitemap.xml
+    status: 200
+  - url: https://advance.ph/openapi.json
+    status: 404
+  - url: https://advance.ph/.well-known/api-catalog
+    status: 404
+  - url: https://partner.advance.ph/
+    status: 200
+  - url: https://partner.advance.ph/openapi.json
+    status: 404
+  checked: '2026-09-09'
