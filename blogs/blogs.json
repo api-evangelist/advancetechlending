@@ -1,0 +1,14 @@
+{
+  "repo": "advancetechlending",
+  "feeds": [
+    {
+      "source": "https://advance.ph/faqs",
+      "feed_url": "https://advance.ph/faqs",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-13T13:00:00Z"
+}
