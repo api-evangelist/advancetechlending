@@ -21,7 +21,7 @@ specificationVersion: '0.20'
 created: '2026-09-09'
 modified: '2026-09-09'
 tags:
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Salary Advance
@@ -44,6 +44,7 @@ tags_raw:
 - Philippines
 - Southeast Asia
 - Company
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
