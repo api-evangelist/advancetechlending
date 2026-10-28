@@ -1,4 +1,4 @@
-# Advancetechlending
+# Advance Tech Lending
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Advancetechlending is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/advancetechlending
+Advance Tech Lending Inc. (operating as Advance, advance.ph) is a Philippine fintech lender founded in 2018 by Jaime de los Angeles and Addi Guevara and headquartered in Taguig, Metro Manila. It operates an on-demand salary access and working-capital platform for Southeast Asia: employees of enrolled employers can draw a Salary Advance of up to 50% of their monthly basic salary, and businesses can unlock cash through Direct Disbursement (invoice/receivables financing) and Payroll Disbursement (payroll funding during cash-flow gaps). The company is registered with the Philippine SEC (Company Reg. No. CS201819635) and holds Certificate of Authority No. 2765 as a lending company, and has raised roughly USD 16-17M in pre-Series A funding from investors including Accion Venture Lab, Lendable, Next Billion Ventures and Do Ventures. As of this profile Advance publishes no first-party developer program, API reference or machine-readable API contract: advance.ph is a 15-page marketing site with no developer path, partner.advance.ph redirects every path to a login, and the only externally visible API listing for its salary-loan product sits inside UnionBank's api.ph partner marketplace.
+
+**Areas:** Financial Services · Fintech · Lending · Salary Advance · Earned Wage Access · Invoice Financing · Payroll · Employee Benefits · Philippines · Southeast Asia · Company
+
+## Advance Tech Lending on APIs.io
+
+Everything profiled for Advance Tech Lending is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/advancetechlending/](https://apis.io/providers/advancetechlending/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Advancetechlending Domain Security](https://apis.io/security/advancetechlending/advancetechlending-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Advancetechlending Plans Pricing](https://apis.io/plans/advancetechlending/advancetechlending-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Advancetechlending Rate Limits](https://apis.io/rate-limits/advancetechlending/advancetechlending-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://advance.ph/)
+- [Sign up](https://advance.ph/sign-up)
+- [Support](https://advance.ph/contact)
+- [Blog](https://advance.ph/blog)
+- [Terms of service](https://advance.ph/terms)
+- [Privacy policy](https://advance.ph/privacy)
+
+## API Evangelist rating
+
+**Kin Score 15.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/advancetechlending/](https://apis.io/providers/advancetechlending/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Advance Tech Lending: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/advancetechlending/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
